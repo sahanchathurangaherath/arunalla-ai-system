@@ -1,0 +1,14 @@
+# RAG Data Curator Tool - Dependencies
+
+# Core dependencies for app.py (Task 4)
+PyMuPDF>=1.23.0      # PDF rendering and text extraction
+Pillow>=10.0.0       # Image processing for preview
+
+# Dependencies for pdf_extractor.py (Task 1) - Optional
+pdfplumber>=0.10.0   # Full text extraction with better accuracy
+PyPDF2>=3.0.0        # Fallback PDF text extraction
+
+# Dependencies for downloader.py (Task 2) - Optional
+gdown>=5.0.0         # Google Drive file downloads
+requests>=2.31.0     # HTTP requests
+beautifulsoup4>=4.12.0  # HTML parsing
